@@ -4,9 +4,15 @@
   "description": "keeps track of how many bytes have been written to a stream",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/test.js"
   },
-  "repository": "",
+  "repository": "git://github.com/superjoe30/node-stream-counter.git",
   "author": "Andrew Kelley <superjoe30@gmail.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "readable-stream": "~1.0.2"
+  }
 }
